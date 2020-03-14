@@ -1,0 +1,4 @@
+<h1>to do application</h1>
+<ul>
+<app-todo-item *ngFor="let item of todoItem" [task]="item" (doneEvent)="done($event)"></app-todo-item>
+</ul>

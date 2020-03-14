@@ -1,0 +1,1 @@
+<li> {{task.name}} <button *ngIf="task.done ==false" (click)="emitDoneEvent(task.id)">x</button><span *ngIf="task.done == true">(done)</span></li>
